@@ -1,0 +1,71 @@
+.contactPage {
+  #header {
+    .display-3 {
+      font-weight: 600;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .divider {
+      width: 70%;
+      height: 2px;
+      background-color: rgb(235, 235, 235);
+      margin: 50px auto;
+    }
+  }
+
+  #formSection {
+    height: 100vh;
+
+    input {
+      padding: 5px 10px;
+      border: 1px solid rgba(128, 128, 128, 0.541);
+      border-radius: 5px;
+    }
+    input::placeholder {
+      color: rgba(128, 128, 128, 0.541);
+    }
+
+    input:focus {
+      outline: none;
+    }
+    textarea {
+      padding: 5px 10px;
+      border: 1px solid rgba(128, 128, 128, 0.541);
+      border-radius: 5px;
+      height: 200px;
+    }
+
+    textarea:focus {
+      outline: none;
+    }
+
+    textarea::placeholder {
+      color: rgba(128, 128, 128, 0.541);
+    }
+
+    .sizedBox {
+      height: 30px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .display-3 {
+      font-size: 42px;
+    }
+
+    h1:nth-child(4) {
+      font-size: 32px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1:nth-child(4) {
+      font-size: 20px;
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+    }
+  }
+}

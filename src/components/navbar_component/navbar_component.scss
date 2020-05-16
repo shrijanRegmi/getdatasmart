@@ -1,0 +1,148 @@
+$creamyColor: #886f84;
+$shadowColor: rgb(238, 238, 238);
+// $creamyColor: #fff;
+.navbarComponent {
+  padding: 15px 25px;
+  z-index: -1;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  a {
+    color: $creamyColor;
+    text-decoration: none;
+    border-start-end-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    // transition: all 0.5s ease;
+  }
+
+  a:hover {
+    border-bottom: 2px solid #1492e6;
+  }
+
+  .tabs {
+    li {
+      margin-left: 20px;
+    }
+  }
+
+  .mainNav {
+    padding: 7px 50px;
+    background-color: #fff;
+    border-radius: 100px;
+    box-shadow: 0 0 10px $shadowColor, 0 0 10px $shadowColor,
+      0 0 10px $shadowColor, 0 0 10px $shadowColor;
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 5px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .brandContainer {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      a {
+        padding: 0px;
+        border: none;
+      }
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    h5 {
+      margin-left: 10px;
+      margin-top: 7px;
+      font-weight: 700;
+      font-size: 15px;
+      color: #ad92a7;
+    }
+
+    .menuContainer {
+      display: none;
+    }
+
+    .menu {
+      border-radius: 100px;
+
+      .line {
+        height: 3px;
+        border-radius: 50px;
+        background-color: #6c757d;
+        margin: 8px;
+      }
+
+      .line1 {
+        width: 30px;
+      }
+
+      .line2 {
+        width: 40px;
+      }
+      .line3 {
+        width: 35px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .brandContainer{
+      width: 100%;
+    }
+
+    .tabs {
+      display: none;
+      flex-direction: column;
+    }
+
+    .tabs li{
+      margin: 15px 0px;
+    }
+
+    .tabs a:hover{
+      border: none;
+    }
+
+    .menuContainer {
+      display: block !important;
+    }
+
+    .mainNav {
+      padding: 20px 20px;
+      border-radius: 0px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbarComponent {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .tabs{
+    display: flex !important;
+  }
+}

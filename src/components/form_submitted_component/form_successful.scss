@@ -1,0 +1,21 @@
+.formSuccessful {
+  height: 80vh;
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 32px !important;
+    }
+    .display-3 {
+      font-size: 52px !important;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 26px !important;
+    }
+    .display-3 {
+      font-size: 52px !important;
+    }
+  }
+}

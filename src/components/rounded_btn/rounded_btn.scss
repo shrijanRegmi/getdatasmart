@@ -1,0 +1,39 @@
+.roundedBtn {
+  a, button{
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+
+  button:focus{
+    outline: none;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  #ourProductsBtn:hover {
+    background-color: rgb(121, 206, 121) !important;
+    border-color: rgb(84, 209, 84) !important;
+    color: #fff !important;
+  }
+
+  #ourProductsBtnButtom:hover {
+    background-color: #1492e6 !important;
+    border-color: #1492e6 !important;
+    color: #fff !important;
+  }
+
+  #ourServicesBtn:hover {
+    background-color: rgb(126, 58, 204) !important;
+    border-color: rgb(126, 58, 204) !important;
+    color: #fff !important;
+  }
+
+  #sendBtn:hover {
+    background-color: rgb(223, 104, 91) !important;
+    border-color: rgb(223, 104, 91) !important;
+    color: #fff !important;
+  }
+}
