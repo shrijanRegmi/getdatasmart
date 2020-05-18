@@ -6,7 +6,6 @@ import "./App.scss";
 import ProductsPage from "./pages/products_page/products_page";
 import ServicesPage from "./pages/services_page/services_page";
 import ContactPage from "./pages/contact_page/contact_page";
-import FooterComponent from "./components/footer_component/footer_component";
 
 class App extends Component {
   render() {

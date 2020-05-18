@@ -2,8 +2,24 @@ import React, { Component } from "react";
 import "./contact_page.scss";
 import FooterComponent from "../../components/footer_component/footer_component";
 import FormSuccessful from "../../components/form_submitted_component/form_successful";
+var nodemailer = require("nodemailer");
 
 class ContactPage extends Component {
+  transporter = nodemailer.createTransport({
+    service: "Gmail",
+    auth: {
+      user: "ilyyhs9@gmail.com",
+      pass: "ilmfasf42",
+    },
+  });
+
+  mailOptions = {
+    from: "shrijanregmi9@gmail.com",
+    to: "ilyyhs9@gmail.com",
+    subject: "Sending Email using Node.js",
+    text: "That was easy!",
+  };
+
   state = {
     name: "",
     email: "",
@@ -22,14 +38,15 @@ class ContactPage extends Component {
     });
   };
 
-  handleFormSubmit = (e) => {
+  async handleFormSubmit(e) {
     e.preventDefault();
+    console.log("sent");
 
     if (
-      this.state.name != "" &&
-      this.state.email != "" &&
-      this.state.query != "" &&
-      this.state.subject != ""
+      this.state.name !== "" &&
+      this.state.email !== "" &&
+      this.state.query !== "" &&
+      this.state.subject !== ""
     ) {
       this.setState({
         isNameEmpty: false,
@@ -44,31 +61,31 @@ class ContactPage extends Component {
         reply_to: this.state.email,
       });
     } else {
-      if (this.state.name == "") {
+      if (this.state.name === "") {
         this.setState({
           isNameEmpty: true,
         });
       }
 
-      if (this.state.email == "") {
+      if (this.state.email === "") {
         this.setState({
           isEmailEmpty: true,
         });
       }
 
-      if (this.state.subject == "") {
+      if (this.state.subject === "") {
         this.setState({
           isSubjectEmpty: true,
         });
       }
 
-      if (this.state.query == "") {
+      if (this.state.query === "") {
         this.setState({
           isQueryEmpty: true,
         });
       }
     }
-  };
+  }
 
   sendFeedback(templateId, variables) {
     window.emailjs

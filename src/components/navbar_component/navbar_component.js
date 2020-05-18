@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function NavbarComponent() {
   const handleMenuClick = (e) => {
     let tabs = document.querySelector(".tabs");
-    if (tabs.style.display == "flex") {
+    if (tabs.style.display === "flex") {
       tabs.removeAttribute("style");
     } else {
       tabs.style.display = "flex";
@@ -21,7 +21,7 @@ function NavbarComponent() {
               <div className="logo">
                 <img src="images/logo.svg" alt="" />
               </div>
-              <h5 className="text-secondary">Getdatasmart.com</h5>
+              <h5 className="text-secondary">DataSmart</h5>
             </div>
           </Link>
           <li className="menuContainer" onClick={(e) => handleMenuClick(e)}>
