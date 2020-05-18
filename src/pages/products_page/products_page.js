@@ -131,6 +131,12 @@ function ProductsPage() {
             <div className="col-lg-6 colContent d-flex align-items-center">
               <div className="content">
                 <h1 className="display-3">Products and Frameworks</h1>
+                <p className="font-weight-bold text-dark">Powerful products beautifully served...</p>
+                <p className="text-secondary">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eligendi hic, sed tempora, necessitatibus velit illum libero
+                  porro quam, ab assumenda repellat laudantium autem vitae.
+                </p>
               </div>
             </div>
             <div className="col-lg-6 colImg d-flex justify-content-center">

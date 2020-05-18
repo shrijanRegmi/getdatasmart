@@ -25,7 +25,6 @@ function HomePage() {
           </div>
           <div className="col-xl-7">
             <div className="sideImg mr-xl-5">
-              {/* <img src="images/svg_bg.svg" alt="" /> */}
               <img className="" src="images/new_landing_img.svg" alt="" />
             </div>
           </div>
@@ -40,6 +39,26 @@ function HomePage() {
           <p>
             There are several fields where we can offer you our help, our
             experience & our expertise...
+          </p>
+
+          <p>
+            At DataSmart, we use data analytics (DA) and machine learning
+            (ML) to explore and uncover hidden patterns, correlations,
+            anomalies, and other insights in the data. Exploratory data analysis
+            (EDA) is used to summarize the main characteristics of the dataset
+            by using visual methods. Then, we use visual storytelling to
+            communicate to general audiences the story behind the data through
+            visual components. At DataSmart , we have extensive experience in
+            conducting DA, ML, and EDA studies of raw data. We can also help you
+            create powerful bespoke visualizations and interactive dashboards
+            for visual storytelling. By using proprietary or open-source
+            technology, we can collect, analyze, and visualize your data (small
+            or large datasets), to help you improve decision-making, uncover
+            patterns, find anomalies, predict future outcomes, or help you get a
+            competitive advantage over your competitors by using business
+            intelligence. We have worked with data obtained from a wide variety
+            of fields, spanning from; social sciences, econometrics, marketing,
+            healthcare, optimization studies, to the social web.
           </p>
 
           <div className="row expertiseRow d-flex align-items-start mt-5">
@@ -112,25 +131,26 @@ function HomePage() {
       {/* Ending of who are we section */}
 
       {/* Starting of check products section */}
-      <section id="checkProductSection">
-        <div className="container">
-          <div className="row d-flex flex-lg-row flex-column-reverse">
-            <div className="col-lg-6 text-center text-lg-left">
-              <h5 className="display-4 my-4">
-                Solutions that will accelerate your digital
-                transformation journey...
-              </h5>
-              <RoundedBtn
-                title="Our Products"
-                color="#1492e6"
-                id="ourProductsBtnButtom"
-                destination="/productsPage"
-              />
-            </div>
-            <div className="col-lg-6">
-              <ServicesCardComponent />
-            </div>
-          </div>
+      <section id="checkProductSection" className="d-flex flex-column">
+        <div className="container text-center mb-5">
+          <h5 className="display-4 my-4">
+            Solutions that will accelerate your digital transformation
+            journey...
+          </h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequatur explicabo iste adipisci hic itaque laborum soluta,
+            dolores nemo sequi. Eveniet!
+          </p>
+          <RoundedBtn
+            title="Our Products"
+            color="#1492e6"
+            id="ourProductsBtnButtom"
+            destination="/productsPage"
+          />
+        </div>
+        <div className="text-center vw-100">
+          <ServicesCardComponent />
         </div>
       </section>
       {/* Ending of check products section */}
