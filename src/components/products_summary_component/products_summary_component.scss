@@ -1,0 +1,35 @@
+$shadowColor: #e2e0e0;
+.productSummaryComponent {
+  .sampleText {
+    margin-bottom: 300px;
+  }
+
+  .row {
+    height: 100%;
+  }
+
+  .contents {
+    padding: 0px 50px;
+    margin-bottom: 150px;
+    img {
+      width: 60%;
+      height: auto;
+    }
+  }
+
+  .contentContainer {
+    box-shadow: 0 0 10px $shadowColor, 0 0 10px $shadowColor,
+      0 0 10px $shadowColor, 0 0 10px $shadowColor;
+    padding: 20px;
+
+    img {
+      width: 80px;
+      height: auto;
+    }
+
+    .productDetail {
+      margin-top: 25px;
+      margin-left: 20px;
+    }
+  }
+}

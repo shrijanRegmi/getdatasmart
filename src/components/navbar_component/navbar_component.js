@@ -14,50 +14,52 @@ function NavbarComponent() {
 
   return (
     <div className="navbarComponent">
-      <ul className="mainNav d-flex align-items-center">
-        <li className="brandContainer">
-          <Link to="/">
-            <div className="brand">
-              <div className="logo">
-                <img src="images/logo.svg" alt="" />
+      <div className="container">
+        <ul className="mainNav d-flex align-items-center">
+          <li className="brandContainer">
+            <Link to="/">
+              <div className="brand">
+                <div className="logo">
+                  <img src="images/logo.svg" alt="" />
+                </div>
+                <h5 className="text-secondary">DataSmart</h5>
               </div>
-              <h5 className="text-secondary">DataSmart</h5>
-            </div>
-          </Link>
-          <li className="menuContainer" onClick={(e) => handleMenuClick(e)}>
-            <div className="menu">
-              <div className="line line1"></div>
-              <div className="line line2"></div>
-              <div className="line line3"></div>
+            </Link>
+            <div className="menuContainer" onClick={(e) => handleMenuClick(e)}>
+              <div className="menu">
+                <div className="line line1"></div>
+                <div className="line line2"></div>
+                <div className="line line3"></div>
+              </div>
             </div>
           </li>
-        </li>
-        <li>
-          <ul className="tabs">
-            <li>
-              <Link to="/" className="text-secondary">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/servicesPage" className="text-secondary">
-                Our Services
-              </Link>
-            </li>
-            <li>
-              <Link to="/productsPage" className="text-secondary">
-                Our Products
-              </Link>
-            </li>
+          <li>
+            <ul className="tabs">
+              <li>
+                <Link to="/" className="text-secondary">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/servicesPage" className="text-secondary">
+                  Our Services
+                </Link>
+              </li>
+              <li>
+                <Link to="/productsPage" className="text-secondary">
+                  Our Products
+                </Link>
+              </li>
 
-            <li>
-              <Link to="/contactPage" className="text-secondary">
-                Contact Us
-              </Link>
-            </li>
-          </ul>
-        </li>
-      </ul>
+              <li>
+                <Link to="/contactPage" className="text-secondary">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

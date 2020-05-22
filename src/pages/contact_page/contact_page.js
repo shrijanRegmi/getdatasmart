@@ -121,7 +121,7 @@ class ContactPage extends Component {
             <p className="w-50 m-auto">
               For any questions, suggestions & remarks, you can contact us via
               the contact form below or via{" "}
-              <a href="contact@datasmarter.com">contact@datasmarter.com</a>
+              <a href="">info@getdatasmart.com</a>
             </p>
             <div className="divider"></div>
             <h1 className="w-50 m-auto">

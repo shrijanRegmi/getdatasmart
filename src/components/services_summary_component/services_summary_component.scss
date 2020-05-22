@@ -1,0 +1,21 @@
+.serviceSummaryComponent {
+  .row {
+    margin: 200px 0px;
+  }
+
+  .details {
+    color: #a8a6a6;
+  }
+
+  .keyWords {
+    span {
+      font-size: 16px;
+      padding: 5px 20px;
+      border-radius: 50px;
+      background-color: #ebebeb;
+      color: #1492e6;
+      font-weight: 600;
+      margin: 10px;
+    }
+  }
+}
