@@ -1,5 +1,6 @@
 {
   "name": "react_website",
+  "main": "server.js",
   "version": "0.1.0",
   "proxy": "http://localhost:8080",
   "private": true,
@@ -12,6 +13,7 @@
     "emailjs-com": "^2.4.1",
     "express": "^4.17.1",
     "firebase": "^7.14.3",
+    "joi": "^14.3.1",
     "node-sass": "^4.14.1",
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
@@ -23,6 +25,7 @@
     "vanta": "^0.5.15"
   },
   "scripts": {
+    "server": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
