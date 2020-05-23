@@ -151,6 +151,7 @@ class ContactPage extends Component {
                       id="nameInputField"
                       placeholder="Type your name here..."
                       onChange={this.handleChange}
+                      required
                     />
                     {/* {this.state.isNameEmpty && (
                       <p className="text-danger text-left">
