@@ -25,8 +25,8 @@
     "vanta": "^0.5.15"
   },
   "scripts": {
-    "server": "node server.js",
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
