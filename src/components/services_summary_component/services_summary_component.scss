@@ -1,6 +1,6 @@
 .serviceSummaryComponent {
   .row {
-    margin: 200px 0px;
+    margin: 20px 0px;
   }
 
   .details {
@@ -17,5 +17,9 @@
       font-weight: 600;
       margin: 10px;
     }
+  }
+
+  img {
+    width: 90%;
   }
 }
