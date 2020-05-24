@@ -252,7 +252,11 @@ class HomePage extends Component {
                   visualizations and interactive dashboards.
                 </p>
               </div>
+<<<<<<< HEAD
             </div>*/}
+=======
+            </div> */}
+>>>>>>> contents-added
           </div>
         </section>
         {/* Ending of expertise section */}
@@ -293,7 +297,7 @@ class HomePage extends Component {
             />
           </div>
           <div className="text-center vw-100">
-            <ServicesCardComponent />
+            {/* <ServicesCardComponent /> */}
           </div>
         </section>
         {/* Ending of check products section */}
