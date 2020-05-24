@@ -124,8 +124,7 @@ class ContactPage extends Component {
             <h1 className="display-3">Contact Us</h1>
             <p className="w-50 m-auto">
               For any questions, suggestions & remarks, you can contact us via
-              the contact form below or via{" "}
-              <a href="">info@getdatasmart.com</a>
+              the contact form below or via <a href="">info@getdatasmart.com</a>
             </p>
             <div className="divider"></div>
             <h1 className="w-50 m-auto">
@@ -146,6 +145,7 @@ class ContactPage extends Component {
                       <span className="text-danger"> *</span>
                     </div>
                     <input
+                      required
                       type="text"
                       name="name"
                       id="nameInputField"

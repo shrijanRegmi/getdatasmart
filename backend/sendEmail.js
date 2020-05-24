@@ -1,9 +1,9 @@
 const nodemailer = require("nodemailer");
 // sends mail from account to itself. contains the form data in the mail message
 module.exports = function (req, res, next) {
-  const ownMail = "youremailtoreceive@email.com";
-  const pwd = "your_pa$$word";
-  const host = "smtp_host";
+  const ownMail = "your email";
+  const pwd = "your password";
+  const host = "smtp.gmail.com";
   const { name, subject, query, email } = req.body;
   const transporter = nodemailer.createTransport({
     host: host,
@@ -30,7 +30,7 @@ module.exports = function (req, res, next) {
 </html>
   `;
   const mailOptions = {
-    from: ownMail, // sender address
+    from: `${name}`, // sender address
     to: ownMail, // list of receivers
     subject: subject, // Subject line
     html: message, // plain text body

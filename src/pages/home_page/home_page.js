@@ -45,27 +45,27 @@ class HomePage extends Component {
               </div>
               <div className="col-xl-7 d-flex justify-content-end">
                 <div className="sideImg">
-                  {/* <img
+                  <img
                     className="user_centric img-fluid"
                     src="images/working.svg"
                     alt=""
                     onLoad={this.changeImgState}
-                  /> */}
-                  <img
+                  />
+                  {/* <img
                     className="user_centric img-fluid"
                     src="images/saga_img_lg.jpg"
                     alt=""
                     onLoad={this.changeImgState}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="bgImg"></div> */}
+          <div className="bgImg"></div>
         </section>
         {/* Ending of landing section */}
 
-        {/* <section id="sagaSection">
+        <section id="sagaSection">
           <div className="sagaContent container mt-5">
             <div className="headingContainer text-center mb-5">
               <h1>Quick and Easy Approach</h1>
@@ -82,7 +82,7 @@ class HomePage extends Component {
               <img src="images/saga_img_sm.jpg" alt="" />
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* Starting of expertise section */}
         <section id="expertiseSection">
@@ -113,76 +113,76 @@ class HomePage extends Component {
               studies, to the social web.
             </p>
 
+            <div className="row expertiseRow d-flex align-items-start mt-5">
+              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
+                <div className="imgContainer">
+                  <img
+                    src="images/data_engineering.svg"
+                    className="rounded-circle"
+                    alt=""
+                  />
+                </div>
+                <h4>Data Engineering</h4>
+                <p>
+                  At DataSmart we use cloud based proprietary and open-source
+                  technologies to help you lay the foundations that will enable
+                  collect, collate and curate data from internal and external
+                  sources of data.
+                </p>
+              </div>
+              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
+                <div className="imgContainer">
+                  <img
+                    src="images/machine_learning.svg"
+                    className="rounded-circle"
+                    alt=""
+                  />
+                </div>
+
+                <h4>Machine Learning</h4>
+                <p>
+                  We use machine learning (ML) to help test hypotheses, explore
+                  and uncover hidden patterns, correlations, anomalies and
+                  insights in your data.
+                </p>
+              </div>
+              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
+                <div className="imgContainer">
+                  <img
+                    src="images/consulting.svg"
+                    className="rounded-circle"
+                    alt=""
+                  />
+                </div>
+
+                <h4>Consulting</h4>
+                <p>
+                  We provide consulting services to help you improve
+                  decision-making, using tools and techniques to help you get a
+                  competitive advantage over your competitors. Our expertise
+                  spans across a wide variety of fields, spanning from; CPG,
+                  pharma, healthcare, marketing, to the social web.
+                </p>
+              </div>
+              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
+                <div className="imgContainer">
+                  <img
+                    src="images/custom_application.svg"
+                    className="rounded-circle"
+                    alt=""
+                  />
+                </div>
+                <h4>Custom Applications</h4>
+                <p>
+                  Using visual storytelling we empower you to communicate to
+                  general audiences the story behind the data through visual
+                  components. We can also help you create powerful bespoke
+                  visualizations and interactive dashboards.
+                </p>
+              </div>
+            </div>
+
             {/* <div className="row expertiseRow d-flex align-items-start mt-5">
-              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
-                <div className="imgContainer">
-                  <img
-                    src="images/data_engineering.svg"
-                    className="rounded-circle"
-                    alt=""
-                  />
-                </div>
-                <h4>Data Engineering</h4>
-                <p>
-                  At DataSmart we use cloud based proprietary and open-source
-                  technologies to help you lay the foundations that will enable
-                  collect, collate and curate data from internal and external
-                  sources of data.
-                </p>
-              </div>
-              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
-                <div className="imgContainer">
-                  <img
-                    src="images/machine_learning.svg"
-                    className="rounded-circle"
-                    alt=""
-                  />
-                </div>
-
-                <h4>Machine Learning</h4>
-                <p>
-                  We use machine learning (ML) to help test hypotheses, explore
-                  and uncover hidden patterns, correlations, anomalies and
-                  insights in your data.
-                </p>
-              </div>
-              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
-                <div className="imgContainer">
-                  <img
-                    src="images/consulting.svg"
-                    className="rounded-circle"
-                    alt=""
-                  />
-                </div>
-
-                <h4>Consulting</h4>
-                <p>
-                  We provide consulting services to help you improve
-                  decision-making, using tools and techniques to help you get a
-                  competitive advantage over your competitors. Our expertise
-                  spans across a wide variety of fields, spanning from; CPG,
-                  pharma, healthcare, marketing, to the social web.
-                </p>
-              </div>
-              <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
-                <div className="imgContainer">
-                  <img
-                    src="images/custom_application.svg"
-                    className="rounded-circle"
-                    alt=""
-                  />
-                </div>
-                <h4>Custom Applications</h4>
-                <p>
-                  Using visual storytelling we empower you to communicate to
-                  general audiences the story behind the data through visual
-                  components. We can also help you create powerful bespoke
-                  visualizations and interactive dashboards.
-                </p>
-              </div>
-            </div> */}
-
-            <div className="row expertiseRow d-flex align-items-start mt-5">
               <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
                 <div className="imgContainer">
                   <img
@@ -252,7 +252,7 @@ class HomePage extends Component {
                   visualizations and interactive dashboards.
                 </p>
               </div>
-            </div>
+            </div>*/}
           </div>
         </section>
         {/* Ending of expertise section */}
