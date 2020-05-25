@@ -47,25 +47,19 @@ class HomePage extends Component {
                 <div className="sideImg">
                   <img
                     className="user_centric img-fluid"
-                    src="images/working.svg"
-                    alt=""
-                    onLoad={this.changeImgState}
-                  />
-                  {/* <img
-                    className="user_centric img-fluid"
                     src="images/saga_img_lg.jpg"
                     alt=""
                     onLoad={this.changeImgState}
-                  /> */}
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <div className="bgImg"></div>
+          {/* <div className="bgImg"></div> */}
         </section>
         {/* Ending of landing section */}
 
-        <section id="sagaSection">
+        {/* <section id="sagaSection">
           <div className="sagaContent container mt-5">
             <div className="headingContainer text-center mb-5">
               <h1>Quick and Easy Approach</h1>
@@ -82,7 +76,7 @@ class HomePage extends Component {
               <img src="images/saga_img_sm.jpg" alt="" />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Starting of expertise section */}
         <section id="expertiseSection">
@@ -252,11 +246,7 @@ class HomePage extends Component {
                   visualizations and interactive dashboards.
                 </p>
               </div>
-<<<<<<< HEAD
-            </div>*/}
-=======
             </div> */}
->>>>>>> contents-added
           </div>
         </section>
         {/* Ending of expertise section */}
