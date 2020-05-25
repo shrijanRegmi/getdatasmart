@@ -12,7 +12,7 @@ function ProductsPage() {
           <div className="row">
             <div className="col-lg-6 colContent d-flex align-items-center">
               <div className="content">
-                <h1 className="display-3">Products and Frameworks</h1>
+                <h1 className="display-4">Products and Frameworks</h1>
                 <p className="font-weight-bold text-dark">
                   Powerful products beautifully served...
                 </p>

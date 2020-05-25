@@ -12,7 +12,7 @@ function ServicesPage() {
           <div className="row">
             <div className="col-lg-6 d-flex align-items-center">
               <div className="content">
-                <h1 className="display-3">Services we offer.</h1>
+                <h1 className="display-4">Services we offer.</h1>
                 <p className="font-weight-bold text-dark">
                   We got what you need...
                 </p>

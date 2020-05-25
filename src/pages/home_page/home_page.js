@@ -1,10 +1,8 @@
 import React from "react";
 import "./home_page.scss";
 import RoundedBtn from "../../components/rounded_btn/rounded_btn";
-import ServicesCardComponent from "../../components/services_card_component/services_card_component";
 import FooterComponent from "../../components/footer_component/footer_component";
 import { Component } from "react";
-import LoaderComponent from "../../components/loader_component/loader_component";
 
 class HomePage extends Component {
   state = {
@@ -51,12 +49,17 @@ class HomePage extends Component {
                     alt=""
                     onLoad={this.changeImgState}
                   /> */}
-                  <img
-                    className="user_centric img-fluid"
-                    src="images/saga_img_lg.jpg"
-                    alt=""
-                    onLoad={this.changeImgState}
-                  />
+                  <div className="imgContainer-lg">
+                    <img
+                      className="user_centric img-fluid"
+                      src="images/saga_img_lg.jpg"
+                      alt=""
+                      onLoad={this.changeImgState}
+                    />
+                  </div>
+                  <div className="imgContainer-sm">
+                    <img src="images/saga_img_sm.jpg" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
