@@ -1,12 +1,11 @@
 $shadowColor: #e2e0e0;
 .productsPage {
   #landingSection {
-    min-height: 80vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 40vh;
 
     .display-4 {
       font-weight: 600;
@@ -34,15 +33,15 @@ $shadowColor: #e2e0e0;
       }
     }
 
-    .bgImg {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      height: 100vh;
-      width: 70%;
-      background-color: rgb(248, 248, 255);
-      z-index: -2;
-    }
+    // .bgImg {
+    //   position: absolute;
+    //   top: 0px;
+    //   left: 0px;
+    //   height: 100vh;
+    //   width: 70%;
+    //   background-color: rgb(248, 248, 255);
+    //   z-index: -2;
+    // }
   }
 
   // products section
@@ -61,11 +60,9 @@ $shadowColor: #e2e0e0;
       h1 {
         font-size: 50px !important;
       }
-
       .bgImg {
         width: 100%;
       }
-
       .row {
         margin-top: 20px;
       }

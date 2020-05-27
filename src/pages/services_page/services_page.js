@@ -26,7 +26,7 @@ function ServicesPage() {
             <div className="col-lg-6 d-flex justify-content-center">
               <img
                 className="img-fluid"
-                src="images/services_main_new.svg"
+                src="images/services_main_new.jpg"
                 alt=""
               />
             </div>

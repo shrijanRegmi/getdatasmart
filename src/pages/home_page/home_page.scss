@@ -19,10 +19,23 @@ $creamyColor: #886f84;
 
   #landingSection {
     min-height: 68vh;
+
+      p{
+        font-size: 22px;
+      }
+
     .imgContainer-sm {
       display: none !important;
       img {
         width: 90%;
+      }
+    }
+
+    .imgContainer-lg {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 80%;
       }
     }
     .bgImg {
@@ -51,7 +64,6 @@ $creamyColor: #886f84;
       font-weight: 600;
     }
     p {
-      font-weight: bold;
       margin-top: 20px;
     }
   }

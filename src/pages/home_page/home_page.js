@@ -34,11 +34,11 @@ class HomePage extends Component {
               <div className="col-xl-5">
                 <div className="landingContent">
                   <h1 className="display-3">DATASMART</h1>
-                  <p>We help you get "datasmart" !</p>
-                  <p className="text-secondary font-weight-normal">
+                  <p className="font-weight-bold">
                     “Data is any organization's most valuable asset!” <br />
                     Cliché?? or fact…
                   </p>
+                  <p className="text-secondary">We help you get "datasmart" !</p>
                 </div>
               </div>
               <div className="col-xl-7 d-flex justify-content-end">
